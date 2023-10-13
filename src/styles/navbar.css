@@ -1,0 +1,55 @@
+ 
+.navbar-container {
+    background-color: #003b95;
+    padding: 1rem;
+    text-align: center;
+    
+  }
+  
+  .title {
+    font-weight: bold;
+    font-family: 'Croissant One', cursive;
+    color: white;
+    font-size: 40px;
+  }
+  
+  .description {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+
+  }
+  
+  .tabs-container {
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+
+  }
+  
+  
+
+.tab {
+  font-size: 1.2rem;
+  border: 2px solid white;
+  padding-top: 0.75rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 8px; /* Add this to round the sides of the tab */
+  box-shadow: 0 3px 4px rgb(93, 126, 227); /* Add this for a subtle shadow */
+
+  margin-right: 2rem;
+  cursor: pointer; /* Add this to make the cursor change on hover */
+}
+
+.tab:hover {
+  color: rgb(93, 126, 227); /* Change color on hover */
+}
+
+.tab.active {
+  background-color: rgb(93, 126, 227); /* Change color for the active (clicked) tab */
+  color: rgb(255, 255, 255); /* Change color on hover */
+
+}
+
+  
